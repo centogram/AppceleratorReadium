@@ -1,0 +1,17 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 1.0.0
+apiversion: 2
+description: epub
+author: Your Name
+license: Specify your license
+copyright: Copyright (c) 2014 by Your Company
+
+# these should not be edited
+name: epub
+moduleid: com.centogram.skyepub
+guid: 8a6abcee-ae01-45e7-8ab4-efefe2d31f86
+platform: android
+minsdk: 3.4.0.GA
