@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>557068F5-D2A5-4874-B823-4C3008277063</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>7EA574B7954BB140EB4FDBD252E584FCDFCE648C</key>
+		<string>https://github.com/readium/readium-sdk.git</string>
+	</dict>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>7EA574B7954BB140EB4FDBD252E584FCDFCE648C</key>
+		<string>../../../Git/SDKLauncher-iOS/readium-sdk</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/readium/readium-sdk.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>7EA574B7954BB140EB4FDBD252E584FCDFCE648C</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>7EA574B7954BB140EB4FDBD252E584FCDFCE648C</string>
+			<key>IDESourceControlWCCName</key>
+			<string>readium-sdk</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>7EA574B7954BB140EB4FDBD252E584FCDFCE648C</string>
+			<key>IDESourceControlWCCName</key>
+			<string>readium-sdk</string>
+		</dict>
+	</array>
+</dict>
+</plist>

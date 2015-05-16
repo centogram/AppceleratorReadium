@@ -51,10 +51,11 @@
         <theme>default</theme>
     </mobileweb>
     <modules>
+        <module platform="iphone" version="1.0.0">com.centogram.readium</module>
         <module platform="iphone">com.centogram.skyepub</module>
-        <module platform="android">com.centogram.skyepub</module>
         <module platform="iphone">ti.compression</module>
         <module platform="android">ti.compression</module>
+        <module platform="android">com.centogram.skyepub</module>
     </modules>
     <deployment-targets>
         <target device="android">true</target>

@@ -1,0 +1,19 @@
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+#import "LocStr.h"
+#include <ePub3/_config.h>
+#import "TiBase.h"
+#import "TiHost.h"
+#import "TiUtils.h"
+#import "TiApp.h"
+
+#define IS_IPAD (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad)
+#define SCREEN_SIZE ([UIScreen mainScreen].bounds.size)
+#endif
