@@ -28,3 +28,5 @@ TestApp/tmp
 TestApp/.project
 TestApp/.settings
 TestApp/*.lock
+
+iOS/iphone/readium-sdk/

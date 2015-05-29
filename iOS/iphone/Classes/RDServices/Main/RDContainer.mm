@@ -58,6 +58,7 @@
 
 - (instancetype)initWithDelegate:(id <RDContainerDelegate>)delegate path:(NSString *)path {
 	if (path == nil || ![[NSFileManager defaultManager] fileExistsAtPath:path]) {
+       //NSLog(@"[ERROR] file not present at application data directory %@",path);
 		return nil;
 	}
 

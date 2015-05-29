@@ -94,7 +94,7 @@
 	NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
 	NSNumber *number = [defaults objectForKey:kKeyScroll];
 	return (number == nil || ![number isKindOfClass:[NSNumber class]]) ?
-		EPubSettingsScrollAuto : number.integerValue;
+		EPubSettingsScrollAuto : [TiUtils intValue:number];
 }
 
 
@@ -153,7 +153,7 @@
 	NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
 	NSNumber *number = [defaults objectForKey:kKeySyntheticSpread];
 	return (number == nil || ![number isKindOfClass:[NSNumber class]]) ?
-		EPubSettingsSyntheticSpreadAuto : number.integerValue;
+		EPubSettingsSyntheticSpreadAuto : [TiUtils intValue:number];
 }
 
 

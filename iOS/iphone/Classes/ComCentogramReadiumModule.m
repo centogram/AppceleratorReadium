@@ -7,6 +7,7 @@
 
 #import "ComCentogramReadiumModule.h"
 #import "ComCentogramReadiumViewController.h"
+#import <AVFoundation/AVFoundation.h>
 
 @implementation ComCentogramReadiumModule
 
@@ -30,6 +31,7 @@
 {
 	// this method is called when the module is first loaded
 	// you *must* call the superclass
+    [[AVAudioSession sharedInstance] setCategory:AVAudioSessionCategoryPlayback error:nil];
 	[super startup];
 
 	NSLog(@"[INFO] %@ loaded",self);
@@ -42,6 +44,7 @@
 	// much processing here or the app will be quit forceably
 
 	// you *must* call the superclass
+    
 	[super shutdown:sender];
 }
 
@@ -89,6 +92,7 @@
 {
     ENSURE_UI_THREAD(open, nil);
     readerViewController=[[ReaderViewController alloc] initWithArray:[ContainerList shared].paths];
+    //NSLog(@"[INFO] %@ paths",[ContainerList shared].paths);
     readerViewController.title=@"Epub Reader";
 
     UINavigationController *EpudReaderController = [[ComCentogramReadiumViewController alloc] initWithRootViewController:readerViewController];

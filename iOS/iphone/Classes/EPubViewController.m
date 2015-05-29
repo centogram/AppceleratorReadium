@@ -410,13 +410,16 @@
 	m_popover = nil;
 }
 
+-(void)closeEpubReader{
+    [self.navigationController dismissViewControllerAnimated:YES completion:nil];
+};
 
 - (void)updateNavigationItems {
 	self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc]
-		initWithBarButtonSystemItem:UIBarButtonSystemItemAction
+		initWithBarButtonSystemItem:UIBarButtonSystemItemDone
 		target:self
-		action:@selector(onClickSettings)];
-}
+		action:@selector(closeEpubReader)];
+};
 
 
 - (void)updateToolbar {
@@ -502,7 +505,7 @@
         }
         NSString* totalPages = [NSString stringWithFormat:@"%d", pageCount];
 
-        label.text = LocStr(@"Page %s of %s (%s)", [currentPages UTF8String], [totalPages UTF8String], m_currentPageIsFixedLayout?[@"FXL" UTF8String]:[@"reflow" UTF8String]);
+        label.text = LocStr(@"PAGE_X_OF_Y", [currentPages UTF8String], [totalPages UTF8String], m_currentPageIsFixedLayout?[@"FXL" UTF8String]:[@"reflow" UTF8String]);
 	}
 
 	[label sizeToFit];
@@ -550,12 +553,6 @@
 
 		[items addObject:itemFixed];
 	}
-
-	[items addObject:[[UIBarButtonItem alloc]
-		initWithBarButtonSystemItem:UIBarButtonSystemItemAdd
-		target:self
-		action:@selector(onClickAddBookmark)]
-	];
 
 	self.toolbarItems = items;
 }

@@ -1,17 +1,21 @@
 $.index.open();
 var readium = require('com.centogram.readium');
 
-// Create a Button.
 var aButton = Ti.UI.createButton({
-	title : 'Open Epub Reader',
-	height : 50,
-	width : 200,
+    title : 'Open Epub Reader',
+    height : 50,
+    width : 200,
 });
 
-// Listen for click events.
+var destPath = Ti.Filesystem.getFile(Ti.Filesystem.applicationDataDirectory, 'wasteland-20120118.epub');
+
+var epubWithUrl = readium.createEPubWithURL({
+    'url' : destPath.nativePath
+});
+
 aButton.addEventListener('click', function() {
-	readium.open();
+    // Ti.API.info(epubWithUrl.getMetaData());
+    epubWithUrl.open();
 });
 
-// Add to the parent view.
 $.index.add(aButton);

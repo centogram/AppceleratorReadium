@@ -50,7 +50,7 @@
 			}
 		}
 
-         NSLog(@"[INFO] %@ ",docsPath);
+         //NSLog(@"[INFO] %@ ",docsPath);
 	}
 	return self;
 }

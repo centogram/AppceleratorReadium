@@ -19,6 +19,8 @@ Android/*.zip
 Android/.apt_generated
 
 iOS/build
+iOS/iphone/build
+iOS/iphone/readium-sdk
 
 TestApp/.DS_Store
 TestApp/build.log
@@ -28,3 +30,12 @@ TestApp/tmp
 TestApp/.project
 TestApp/.settings
 TestApp/*.lock
+
+TestApp Alloy/.DS_Store
+TestApp Alloy/build.log
+TestApp Alloy/build
+TestApp Alloy/npm-debug.log
+TestApp Alloy/tmp
+TestApp Alloy/.project
+TestApp Alloy/.settings
+TestApp Alloy/*.lock

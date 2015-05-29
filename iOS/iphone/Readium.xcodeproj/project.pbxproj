@@ -65,6 +65,8 @@
 		2E3C1DD51B05236100F4DCF4 /* ComCentogramReadiumViewController.m in Headers */ = {isa = PBXBuildFile; fileRef = 2EF0BC851B027C5700362F5E /* ComCentogramReadiumViewController.m */; };
 		2E3D568A1B01342B00854EC0 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E3D56891B01342B00854EC0 /* libxml2.dylib */; };
 		2E3D568C1B01343500854EC0 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E3D568B1B01343500854EC0 /* libz.dylib */; };
+		2E855CE01B0A431D00F2DB09 /* ComCentogramReadiumEPubWithURLProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E855CDE1B0A431D00F2DB09 /* ComCentogramReadiumEPubWithURLProxy.h */; };
+		2E855CE11B0A431D00F2DB09 /* ComCentogramReadiumEPubWithURLProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E855CDF1B0A431D00F2DB09 /* ComCentogramReadiumEPubWithURLProxy.m */; };
 		2EA9ACF41B01110D00D271CD /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EA9ACF31B01110D00D271CD /* AVFoundation.framework */; };
 		2EA9ACF61B01112F00D271CD /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EA9ACF51B01112F00D271CD /* CFNetwork.framework */; };
 		2EA9ACF81B01113400D271CD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EA9ACF71B01113400D271CD /* CoreGraphics.framework */; };
@@ -94,93 +96,6 @@
 		2EF0BE0D1B03CDB700362F5E /* EPubViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EF0BE091B03CDB700362F5E /* EPubViewController.m */; };
 		2EF0BE1D1B03CF7200362F5E /* RDSpineItem.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2EF0BE1B1B03CF7200362F5E /* RDSpineItem.mm */; };
 		2EF0BF291B04E66200362F5E /* NavigationElementItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EF0BF271B04E66200362F5E /* NavigationElementItem.m */; };
-		2EF3133D1B063D98000BB84B /* annotations.css in Resources */ = {isa = PBXBuildFile; fileRef = 2EF312DB1B063D97000BB84B /* annotations.css */; };
-		2EF3133E1B063D98000BB84B /* childrens-literature-20130206.epub in Resources */ = {isa = PBXBuildFile; fileRef = 2EF312DC1B063D97000BB84B /* childrens-literature-20130206.epub */; };
-		2EF3133F1B063D98000BB84B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2EF312DD1B063D97000BB84B /* Default-568h@2x.png */; };
-		2EF313401B063D98000BB84B /* Default-Landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = 2EF312DE1B063D97000BB84B /* Default-Landscape.png */; };
-		2EF313411B063D98000BB84B /* Default-Landscape@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2EF312DF1B063D97000BB84B /* Default-Landscape@2x.png */; };
-		2EF313421B063D98000BB84B /* Default-Portrait.png in Resources */ = {isa = PBXBuildFile; fileRef = 2EF312E01B063D97000BB84B /* Default-Portrait.png */; };
-		2EF313431B063D98000BB84B /* Default-Portrait@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2EF312E11B063D97000BB84B /* Default-Portrait@2x.png */; };
-		2EF313441B063D98000BB84B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 2EF312E21B063D97000BB84B /* Default.png */; };
-		2EF313451B063D98000BB84B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2EF312E31B063D97000BB84B /* Default@2x.png */; };
-		2EF313471B063D98000BB84B /* epub30-test-0120-20131022.epub in Resources */ = {isa = PBXBuildFile; fileRef = 2EF312E61B063D98000BB84B /* epub30-test-0120-20131022.epub */; };
-		2EF313481B063D98000BB84B /* epub30-test-0220-20131022.epub in Resources */ = {isa = PBXBuildFile; fileRef = 2EF312E71B063D98000BB84B /* epub30-test-0220-20131022.epub */; };
-		2EF313491B063D98000BB84B /* epubReadingSystem.epub in Resources */ = {isa = PBXBuildFile; fileRef = 2EF312E81B063D98000BB84B /* epubReadingSystem.epub */; };
-		2EF3134A1B063D98000BB84B /* epubReadingSystem.js in Resources */ = {isa = PBXBuildFile; fileRef = 2EF312E91B063D98000BB84B /* epubReadingSystem.js */; };
-		2EF3134B1B063D98000BB84B /* epubReadingSystem.sh in Resources */ = {isa = PBXBuildFile; fileRef = 2EF312EA1B063D98000BB84B /* epubReadingSystem.sh */; };
-		2EF3134C1B063D98000BB84B /* epubReadingSystem_.js in Resources */ = {isa = PBXBuildFile; fileRef = 2EF312EB1B063D98000BB84B /* epubReadingSystem_.js */; };
-		2EF3134D1B063D98000BB84B /* host_app_feedback.js in Resources */ = {isa = PBXBuildFile; fileRef = 2EF312EC1B063D98000BB84B /* host_app_feedback.js */; };
-		2EF3134E1B063D98000BB84B /* Icon-29.png in Resources */ = {isa = PBXBuildFile; fileRef = 2EF312ED1B063D98000BB84B /* Icon-29.png */; };
-		2EF3134F1B063D98000BB84B /* Icon-29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2EF312EE1B063D98000BB84B /* Icon-29@2x.png */; };
-		2EF313501B063D98000BB84B /* Icon-40.png in Resources */ = {isa = PBXBuildFile; fileRef = 2EF312EF1B063D98000BB84B /* Icon-40.png */; };
-		2EF313511B063D98000BB84B /* Icon-40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2EF312F01B063D98000BB84B /* Icon-40@2x.png */; };
-		2EF313521B063D98000BB84B /* Icon-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 2EF312F11B063D98000BB84B /* Icon-50.png */; };
-		2EF313531B063D98000BB84B /* Icon-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2EF312F21B063D98000BB84B /* Icon-50@2x.png */; };
-		2EF313541B063D98000BB84B /* Icon-57.png in Resources */ = {isa = PBXBuildFile; fileRef = 2EF312F31B063D98000BB84B /* Icon-57.png */; };
-		2EF313551B063D98000BB84B /* Icon-57@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2EF312F41B063D98000BB84B /* Icon-57@2x.png */; };
-		2EF313561B063D98000BB84B /* Icon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2EF312F51B063D98000BB84B /* Icon-60@2x.png */; };
-		2EF313571B063D98000BB84B /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 2EF312F61B063D98000BB84B /* Icon-72.png */; };
-		2EF313581B063D98000BB84B /* Icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2EF312F71B063D98000BB84B /* Icon-72@2x.png */; };
-		2EF313591B063D98000BB84B /* Icon-76.png in Resources */ = {isa = PBXBuildFile; fileRef = 2EF312F81B063D98000BB84B /* Icon-76.png */; };
-		2EF3135A1B063D98000BB84B /* Icon-76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2EF312F91B063D98000BB84B /* Icon-76@2x.png */; };
-		2EF3135B1B063D98000BB84B /* MathJax.js in Resources */ = {isa = PBXBuildFile; fileRef = 2EF312FB1B063D98000BB84B /* MathJax.js */; };
-		2EF3135C1B063D98000BB84B /* moby-dick-20120118.epub in Resources */ = {isa = PBXBuildFile; fileRef = 2EF312FC1B063D98000BB84B /* moby-dick-20120118.epub */; };
-		2EF3135D1B063D98000BB84B /* page-blanche-20130322.epub in Resources */ = {isa = PBXBuildFile; fileRef = 2EF312FD1B063D98000BB84B /* page-blanche-20130322.epub */; };
-		2EF3135E1B063D98000BB84B /* reader.css in Resources */ = {isa = PBXBuildFile; fileRef = 2EF312FE1B063D98000BB84B /* reader.css */; };
-		2EF3135F1B063D98000BB84B /* reader.html in Resources */ = {isa = PBXBuildFile; fileRef = 2EF312FF1B063D98000BB84B /* reader.html */; };
-		2EF313601B063D98000BB84B /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 2EF313011B063D98000BB84B /* .gitignore */; };
-		2EF313611B063D98000BB84B /* sample_styles.css in Resources */ = {isa = PBXBuildFile; fileRef = 2EF313031B063D98000BB84B /* sample_styles.css */; };
-		2EF313621B063D98000BB84B /* helpers.js in Resources */ = {isa = PBXBuildFile; fileRef = 2EF313051B063D98000BB84B /* helpers.js */; };
-		2EF313631B063D98000BB84B /* bookmark_data.js in Resources */ = {isa = PBXBuildFile; fileRef = 2EF313071B063D98000BB84B /* bookmark_data.js */; };
-		2EF313641B063D98000BB84B /* current_pages_info.js in Resources */ = {isa = PBXBuildFile; fileRef = 2EF313081B063D98000BB84B /* current_pages_info.js */; };
-		2EF313651B063D98000BB84B /* fixed_page_spread.js in Resources */ = {isa = PBXBuildFile; fileRef = 2EF313091B063D98000BB84B /* fixed_page_spread.js */; };
-		2EF313661B063D98000BB84B /* media_overlay.js in Resources */ = {isa = PBXBuildFile; fileRef = 2EF3130A1B063D98000BB84B /* media_overlay.js */; };
-		2EF313671B063D98000BB84B /* package.js in Resources */ = {isa = PBXBuildFile; fileRef = 2EF3130B1B063D98000BB84B /* package.js */; };
-		2EF313681B063D98000BB84B /* package_data.js in Resources */ = {isa = PBXBuildFile; fileRef = 2EF3130C1B063D98000BB84B /* package_data.js */; };
-		2EF313691B063D98000BB84B /* page_open_request.js in Resources */ = {isa = PBXBuildFile; fileRef = 2EF3130D1B063D98000BB84B /* page_open_request.js */; };
-		2EF3136A1B063D98000BB84B /* smil_iterator.js in Resources */ = {isa = PBXBuildFile; fileRef = 2EF3130E1B063D98000BB84B /* smil_iterator.js */; };
-		2EF3136B1B063D98000BB84B /* smil_model.js in Resources */ = {isa = PBXBuildFile; fileRef = 2EF3130F1B063D98000BB84B /* smil_model.js */; };
-		2EF3136C1B063D98000BB84B /* spine.js in Resources */ = {isa = PBXBuildFile; fileRef = 2EF313101B063D98000BB84B /* spine.js */; };
-		2EF3136D1B063D98000BB84B /* spine_item.js in Resources */ = {isa = PBXBuildFile; fileRef = 2EF313111B063D98000BB84B /* spine_item.js */; };
-		2EF3136E1B063D98000BB84B /* style.js in Resources */ = {isa = PBXBuildFile; fileRef = 2EF313121B063D98000BB84B /* style.js */; };
-		2EF3136F1B063D98000BB84B /* style_collection.js in Resources */ = {isa = PBXBuildFile; fileRef = 2EF313131B063D98000BB84B /* style_collection.js */; };
-		2EF313701B063D98000BB84B /* switches.js in Resources */ = {isa = PBXBuildFile; fileRef = 2EF313141B063D98000BB84B /* switches.js */; };
-		2EF313711B063D98000BB84B /* trigger.js in Resources */ = {isa = PBXBuildFile; fileRef = 2EF313151B063D98000BB84B /* trigger.js */; };
-		2EF313721B063D98000BB84B /* viewer_settings.js in Resources */ = {isa = PBXBuildFile; fileRef = 2EF313161B063D98000BB84B /* viewer_settings.js */; };
-		2EF313731B063D98000BB84B /* readium_sdk.js in Resources */ = {isa = PBXBuildFile; fileRef = 2EF313171B063D98000BB84B /* readium_sdk.js */; };
-		2EF313741B063D98000BB84B /* annotations_manager.js in Resources */ = {isa = PBXBuildFile; fileRef = 2EF313191B063D98000BB84B /* annotations_manager.js */; };
-		2EF313751B063D98000BB84B /* audio_player.js in Resources */ = {isa = PBXBuildFile; fileRef = 2EF3131A1B063D98000BB84B /* audio_player.js */; };
-		2EF313761B063D98000BB84B /* cfi_navigation_logic.js in Resources */ = {isa = PBXBuildFile; fileRef = 2EF3131B1B063D98000BB84B /* cfi_navigation_logic.js */; };
-		2EF313771B063D98000BB84B /* fixed_view.js in Resources */ = {isa = PBXBuildFile; fileRef = 2EF3131C1B063D98000BB84B /* fixed_view.js */; };
-		2EF313781B063D98000BB84B /* iframe_loader.js in Resources */ = {isa = PBXBuildFile; fileRef = 2EF3131D1B063D98000BB84B /* iframe_loader.js */; };
-		2EF313791B063D98000BB84B /* internal_links_support.js in Resources */ = {isa = PBXBuildFile; fileRef = 2EF3131E1B063D98000BB84B /* internal_links_support.js */; };
-		2EF3137A1B063D98000BB84B /* media_overlay_data_injector.js in Resources */ = {isa = PBXBuildFile; fileRef = 2EF3131F1B063D98000BB84B /* media_overlay_data_injector.js */; };
-		2EF3137B1B063D98000BB84B /* media_overlay_element_highlighter.js in Resources */ = {isa = PBXBuildFile; fileRef = 2EF313201B063D98000BB84B /* media_overlay_element_highlighter.js */; };
-		2EF3137C1B063D98000BB84B /* media_overlay_player.js in Resources */ = {isa = PBXBuildFile; fileRef = 2EF313211B063D98000BB84B /* media_overlay_player.js */; };
-		2EF3137D1B063D98000BB84B /* one_page_view.js in Resources */ = {isa = PBXBuildFile; fileRef = 2EF313221B063D98000BB84B /* one_page_view.js */; };
-		2EF3137E1B063D98000BB84B /* reader_view.js in Resources */ = {isa = PBXBuildFile; fileRef = 2EF313231B063D98000BB84B /* reader_view.js */; };
-		2EF3137F1B063D98000BB84B /* reflowable_view.js in Resources */ = {isa = PBXBuildFile; fileRef = 2EF313241B063D98000BB84B /* reflowable_view.js */; };
-		2EF313801B063D98000BB84B /* scroll_view.js in Resources */ = {isa = PBXBuildFile; fileRef = 2EF313251B063D98000BB84B /* scroll_view.js */; };
-		2EF313811B063D98000BB84B /* annotations_module.js in Resources */ = {isa = PBXBuildFile; fileRef = 2EF313271B063D98000BB84B /* annotations_module.js */; };
-		2EF313821B063D98000BB84B /* backbone.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2EF313281B063D98000BB84B /* backbone.min.js */; };
-		2EF313831B063D98000BB84B /* console_shim.js in Resources */ = {isa = PBXBuildFile; fileRef = 2EF313291B063D98000BB84B /* console_shim.js */; };
-		2EF313841B063D98000BB84B /* epub_cfi.js in Resources */ = {isa = PBXBuildFile; fileRef = 2EF3132A1B063D98000BB84B /* epub_cfi.js */; };
-		2EF313851B063D98000BB84B /* jquery.js in Resources */ = {isa = PBXBuildFile; fileRef = 2EF3132B1B063D98000BB84B /* jquery.js */; };
-		2EF313861B063D98000BB84B /* jquery.sizes.js in Resources */ = {isa = PBXBuildFile; fileRef = 2EF3132C1B063D98000BB84B /* jquery.sizes.js */; };
-		2EF313871B063D98000BB84B /* rangy-core.js in Resources */ = {isa = PBXBuildFile; fileRef = 2EF3132E1B063D98000BB84B /* rangy-core.js */; };
-		2EF313881B063D98000BB84B /* rangy-cssclassapplier.js in Resources */ = {isa = PBXBuildFile; fileRef = 2EF3132F1B063D98000BB84B /* rangy-cssclassapplier.js */; };
-		2EF313891B063D98000BB84B /* rangy-highlighter.js in Resources */ = {isa = PBXBuildFile; fileRef = 2EF313301B063D98000BB84B /* rangy-highlighter.js */; };
-		2EF3138A1B063D98000BB84B /* rangy-position.js in Resources */ = {isa = PBXBuildFile; fileRef = 2EF313311B063D98000BB84B /* rangy-position.js */; };
-		2EF3138B1B063D98000BB84B /* rangy-selectionsaverestore.js in Resources */ = {isa = PBXBuildFile; fileRef = 2EF313321B063D98000BB84B /* rangy-selectionsaverestore.js */; };
-		2EF3138C1B063D98000BB84B /* rangy-serializer.js in Resources */ = {isa = PBXBuildFile; fileRef = 2EF313331B063D98000BB84B /* rangy-serializer.js */; };
-		2EF3138D1B063D98000BB84B /* rangy-textrange.js in Resources */ = {isa = PBXBuildFile; fileRef = 2EF313341B063D98000BB84B /* rangy-textrange.js */; };
-		2EF3138E1B063D98000BB84B /* rangy.js in Resources */ = {isa = PBXBuildFile; fileRef = 2EF313351B063D98000BB84B /* rangy.js */; };
-		2EF3138F1B063D98000BB84B /* underscore.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2EF313361B063D98000BB84B /* underscore.min.js */; };
-		2EF313901B063D98000BB84B /* URI.js in Resources */ = {isa = PBXBuildFile; fileRef = 2EF313371B063D98000BB84B /* URI.js */; };
-		2EF313911B063D98000BB84B /* license.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2EF313381B063D98000BB84B /* license.txt */; };
-		2EF313931B063D98000BB84B /* sdk.css in Resources */ = {isa = PBXBuildFile; fileRef = 2EF3133B1B063D98000BB84B /* sdk.css */; };
-		2EF313941B063D98000BB84B /* wasteland-20120118.epub in Resources */ = {isa = PBXBuildFile; fileRef = 2EF3133C1B063D98000BB84B /* wasteland-20120118.epub */; };
-		2EF313951B065067000BB84B /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2EF312E41B063D97000BB84B /* Localizable.strings */; };
 		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -304,6 +219,8 @@
 		2E3D56891B01342B00854EC0 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
 		2E3D568B1B01343500854EC0 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		2E407C0C1B0505100098AD0A /* ePub3.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ePub3.xcodeproj; path = "readium-sdk/Platform/Apple/ePub3.xcodeproj"; sourceTree = "<group>"; };
+		2E855CDE1B0A431D00F2DB09 /* ComCentogramReadiumEPubWithURLProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComCentogramReadiumEPubWithURLProxy.h; sourceTree = "<group>"; };
+		2E855CDF1B0A431D00F2DB09 /* ComCentogramReadiumEPubWithURLProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComCentogramReadiumEPubWithURLProxy.m; sourceTree = "<group>"; };
 		2EA9ACF31B01110D00D271CD /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		2EA9ACF51B01112F00D271CD /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		2EA9ACF71B01113400D271CD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -351,94 +268,6 @@
 		2EF0BF211B04E0F400362F5E /* ePub3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = ePub3.dylib; path = "../../../Git/SDKLauncher-iOS/readium-sdk/Platform/Apple/build/Debug/ePub3.dylib"; sourceTree = "<group>"; };
 		2EF0BF261B04E66200362F5E /* NavigationElementItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationElementItem.h; sourceTree = "<group>"; };
 		2EF0BF271B04E66200362F5E /* NavigationElementItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationElementItem.m; sourceTree = "<group>"; };
-		2EF312DB1B063D97000BB84B /* annotations.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = annotations.css; sourceTree = "<group>"; };
-		2EF312DC1B063D97000BB84B /* childrens-literature-20130206.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "childrens-literature-20130206.epub"; sourceTree = "<group>"; };
-		2EF312DD1B063D97000BB84B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		2EF312DE1B063D97000BB84B /* Default-Landscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape.png"; sourceTree = "<group>"; };
-		2EF312DF1B063D97000BB84B /* Default-Landscape@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape@2x.png"; sourceTree = "<group>"; };
-		2EF312E01B063D97000BB84B /* Default-Portrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait.png"; sourceTree = "<group>"; };
-		2EF312E11B063D97000BB84B /* Default-Portrait@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait@2x.png"; sourceTree = "<group>"; };
-		2EF312E21B063D97000BB84B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		2EF312E31B063D97000BB84B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		2EF312E51B063D97000BB84B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
-		2EF312E61B063D98000BB84B /* epub30-test-0120-20131022.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "epub30-test-0120-20131022.epub"; sourceTree = "<group>"; };
-		2EF312E71B063D98000BB84B /* epub30-test-0220-20131022.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "epub30-test-0220-20131022.epub"; sourceTree = "<group>"; };
-		2EF312E81B063D98000BB84B /* epubReadingSystem.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = epubReadingSystem.epub; sourceTree = "<group>"; };
-		2EF312E91B063D98000BB84B /* epubReadingSystem.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = epubReadingSystem.js; sourceTree = "<group>"; };
-		2EF312EA1B063D98000BB84B /* epubReadingSystem.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = epubReadingSystem.sh; sourceTree = "<group>"; };
-		2EF312EB1B063D98000BB84B /* epubReadingSystem_.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = epubReadingSystem_.js; sourceTree = "<group>"; };
-		2EF312EC1B063D98000BB84B /* host_app_feedback.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = host_app_feedback.js; sourceTree = "<group>"; };
-		2EF312ED1B063D98000BB84B /* Icon-29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-29.png"; sourceTree = "<group>"; };
-		2EF312EE1B063D98000BB84B /* Icon-29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-29@2x.png"; sourceTree = "<group>"; };
-		2EF312EF1B063D98000BB84B /* Icon-40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-40.png"; sourceTree = "<group>"; };
-		2EF312F01B063D98000BB84B /* Icon-40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-40@2x.png"; sourceTree = "<group>"; };
-		2EF312F11B063D98000BB84B /* Icon-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-50.png"; sourceTree = "<group>"; };
-		2EF312F21B063D98000BB84B /* Icon-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-50@2x.png"; sourceTree = "<group>"; };
-		2EF312F31B063D98000BB84B /* Icon-57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-57.png"; sourceTree = "<group>"; };
-		2EF312F41B063D98000BB84B /* Icon-57@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-57@2x.png"; sourceTree = "<group>"; };
-		2EF312F51B063D98000BB84B /* Icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60@2x.png"; sourceTree = "<group>"; };
-		2EF312F61B063D98000BB84B /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
-		2EF312F71B063D98000BB84B /* Icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72@2x.png"; sourceTree = "<group>"; };
-		2EF312F81B063D98000BB84B /* Icon-76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-76.png"; sourceTree = "<group>"; };
-		2EF312F91B063D98000BB84B /* Icon-76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-76@2x.png"; sourceTree = "<group>"; };
-		2EF312FB1B063D98000BB84B /* MathJax.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = MathJax.js; sourceTree = "<group>"; };
-		2EF312FC1B063D98000BB84B /* moby-dick-20120118.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "moby-dick-20120118.epub"; sourceTree = "<group>"; };
-		2EF312FD1B063D98000BB84B /* page-blanche-20130322.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "page-blanche-20130322.epub"; sourceTree = "<group>"; };
-		2EF312FE1B063D98000BB84B /* reader.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = reader.css; sourceTree = "<group>"; };
-		2EF312FF1B063D98000BB84B /* reader.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = reader.html; sourceTree = "<group>"; };
-		2EF313011B063D98000BB84B /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
-		2EF313031B063D98000BB84B /* sample_styles.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = sample_styles.css; sourceTree = "<group>"; };
-		2EF313051B063D98000BB84B /* helpers.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = helpers.js; sourceTree = "<group>"; };
-		2EF313071B063D98000BB84B /* bookmark_data.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = bookmark_data.js; sourceTree = "<group>"; };
-		2EF313081B063D98000BB84B /* current_pages_info.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = current_pages_info.js; sourceTree = "<group>"; };
-		2EF313091B063D98000BB84B /* fixed_page_spread.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = fixed_page_spread.js; sourceTree = "<group>"; };
-		2EF3130A1B063D98000BB84B /* media_overlay.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = media_overlay.js; sourceTree = "<group>"; };
-		2EF3130B1B063D98000BB84B /* package.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = package.js; sourceTree = "<group>"; };
-		2EF3130C1B063D98000BB84B /* package_data.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = package_data.js; sourceTree = "<group>"; };
-		2EF3130D1B063D98000BB84B /* page_open_request.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = page_open_request.js; sourceTree = "<group>"; };
-		2EF3130E1B063D98000BB84B /* smil_iterator.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = smil_iterator.js; sourceTree = "<group>"; };
-		2EF3130F1B063D98000BB84B /* smil_model.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = smil_model.js; sourceTree = "<group>"; };
-		2EF313101B063D98000BB84B /* spine.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = spine.js; sourceTree = "<group>"; };
-		2EF313111B063D98000BB84B /* spine_item.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = spine_item.js; sourceTree = "<group>"; };
-		2EF313121B063D98000BB84B /* style.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = style.js; sourceTree = "<group>"; };
-		2EF313131B063D98000BB84B /* style_collection.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = style_collection.js; sourceTree = "<group>"; };
-		2EF313141B063D98000BB84B /* switches.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = switches.js; sourceTree = "<group>"; };
-		2EF313151B063D98000BB84B /* trigger.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = trigger.js; sourceTree = "<group>"; };
-		2EF313161B063D98000BB84B /* viewer_settings.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = viewer_settings.js; sourceTree = "<group>"; };
-		2EF313171B063D98000BB84B /* readium_sdk.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = readium_sdk.js; sourceTree = "<group>"; };
-		2EF313191B063D98000BB84B /* annotations_manager.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = annotations_manager.js; sourceTree = "<group>"; };
-		2EF3131A1B063D98000BB84B /* audio_player.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = audio_player.js; sourceTree = "<group>"; };
-		2EF3131B1B063D98000BB84B /* cfi_navigation_logic.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = cfi_navigation_logic.js; sourceTree = "<group>"; };
-		2EF3131C1B063D98000BB84B /* fixed_view.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = fixed_view.js; sourceTree = "<group>"; };
-		2EF3131D1B063D98000BB84B /* iframe_loader.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = iframe_loader.js; sourceTree = "<group>"; };
-		2EF3131E1B063D98000BB84B /* internal_links_support.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = internal_links_support.js; sourceTree = "<group>"; };
-		2EF3131F1B063D98000BB84B /* media_overlay_data_injector.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = media_overlay_data_injector.js; sourceTree = "<group>"; };
-		2EF313201B063D98000BB84B /* media_overlay_element_highlighter.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = media_overlay_element_highlighter.js; sourceTree = "<group>"; };
-		2EF313211B063D98000BB84B /* media_overlay_player.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = media_overlay_player.js; sourceTree = "<group>"; };
-		2EF313221B063D98000BB84B /* one_page_view.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = one_page_view.js; sourceTree = "<group>"; };
-		2EF313231B063D98000BB84B /* reader_view.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = reader_view.js; sourceTree = "<group>"; };
-		2EF313241B063D98000BB84B /* reflowable_view.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = reflowable_view.js; sourceTree = "<group>"; };
-		2EF313251B063D98000BB84B /* scroll_view.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = scroll_view.js; sourceTree = "<group>"; };
-		2EF313271B063D98000BB84B /* annotations_module.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = annotations_module.js; sourceTree = "<group>"; };
-		2EF313281B063D98000BB84B /* backbone.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = backbone.min.js; sourceTree = "<group>"; };
-		2EF313291B063D98000BB84B /* console_shim.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = console_shim.js; sourceTree = "<group>"; };
-		2EF3132A1B063D98000BB84B /* epub_cfi.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = epub_cfi.js; sourceTree = "<group>"; };
-		2EF3132B1B063D98000BB84B /* jquery.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jquery.js; sourceTree = "<group>"; };
-		2EF3132C1B063D98000BB84B /* jquery.sizes.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jquery.sizes.js; sourceTree = "<group>"; };
-		2EF3132E1B063D98000BB84B /* rangy-core.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "rangy-core.js"; sourceTree = "<group>"; };
-		2EF3132F1B063D98000BB84B /* rangy-cssclassapplier.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "rangy-cssclassapplier.js"; sourceTree = "<group>"; };
-		2EF313301B063D98000BB84B /* rangy-highlighter.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "rangy-highlighter.js"; sourceTree = "<group>"; };
-		2EF313311B063D98000BB84B /* rangy-position.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "rangy-position.js"; sourceTree = "<group>"; };
-		2EF313321B063D98000BB84B /* rangy-selectionsaverestore.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "rangy-selectionsaverestore.js"; sourceTree = "<group>"; };
-		2EF313331B063D98000BB84B /* rangy-serializer.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "rangy-serializer.js"; sourceTree = "<group>"; };
-		2EF313341B063D98000BB84B /* rangy-textrange.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "rangy-textrange.js"; sourceTree = "<group>"; };
-		2EF313351B063D98000BB84B /* rangy.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = rangy.js; sourceTree = "<group>"; };
-		2EF313361B063D98000BB84B /* underscore.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = underscore.min.js; sourceTree = "<group>"; };
-		2EF313371B063D98000BB84B /* URI.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = URI.js; sourceTree = "<group>"; };
-		2EF313381B063D98000BB84B /* license.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = license.txt; sourceTree = "<group>"; };
-		2EF313391B063D98000BB84B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		2EF3133B1B063D98000BB84B /* sdk.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = sdk.css; sourceTree = "<group>"; };
-		2EF3133C1B063D98000BB84B /* wasteland-20120118.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "wasteland-20120118.epub"; sourceTree = "<group>"; };
 		AA747D9E0F9514B9006C5449 /* ComCentogramReadium_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComCentogramReadium_Prefix.pch; sourceTree = SOURCE_ROOT; };
 		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D2AAC07E0554694100DB518D /* libComCentogramReadium.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libComCentogramReadium.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -476,7 +305,6 @@
 		0867D691FE84028FC02AAC07 /* Readium */ = {
 			isa = PBXGroup;
 			children = (
-				2EF312DA1B063D97000BB84B /* Resources */,
 				2EF0BC7F1B027C5700362F5E /* Classes */,
 				32C88DFF0371C24200C91783 /* Other Sources */,
 				0867D69AFE84028FC02AAC07 /* Frameworks */,
@@ -680,7 +508,6 @@
 			children = (
 				2EF0BDF41B03CA6600362F5E /* LocStr.h */,
 				2EF0BDF51B03CA6600362F5E /* LocStr.m */,
-				2EF0BC801B027C5700362F5E /* ComCentogramReadiumModule.h */,
 				2EF0BD4F1B02809100362F5E /* BaseViewController.h */,
 				2EF0BDD41B03C93700362F5E /* ContainerController.h */,
 				2EF0BE021B03CD1B00362F5E /* EPubSettings.h */,
@@ -711,13 +538,8 @@
 				2EF0BD4A1B02803B00362F5E /* ContainerList.m */,
 				2EF0BF261B04E66200362F5E /* NavigationElementItem.h */,
 				2EF0BF271B04E66200362F5E /* NavigationElementItem.m */,
-				2EF0BC811B027C5700362F5E /* ComCentogramReadiumModule.m */,
 				2EF0BDE81B03C96000362F5E /* NavigationElementController.h */,
 				2EF0BDE91B03C96000362F5E /* NavigationElementController.m */,
-				2EF0BC821B027C5700362F5E /* ComCentogramReadiumModuleAssets.h */,
-				2EF0BC831B027C5700362F5E /* ComCentogramReadiumModuleAssets.m */,
-				2EF0BC841B027C5700362F5E /* ComCentogramReadiumViewController.h */,
-				2EF0BC851B027C5700362F5E /* ComCentogramReadiumViewController.m */,
 			);
 			name = Main;
 			sourceTree = "<group>";
@@ -732,180 +554,29 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		2E855CD51B0A2EFD00F2DB09 /* Appcelerator Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2EF0BC801B027C5700362F5E /* ComCentogramReadiumModule.h */,
+				2EF0BC811B027C5700362F5E /* ComCentogramReadiumModule.m */,
+				2EF0BC821B027C5700362F5E /* ComCentogramReadiumModuleAssets.h */,
+				2EF0BC831B027C5700362F5E /* ComCentogramReadiumModuleAssets.m */,
+				2EF0BC841B027C5700362F5E /* ComCentogramReadiumViewController.h */,
+				2EF0BC851B027C5700362F5E /* ComCentogramReadiumViewController.m */,
+				2E855CDE1B0A431D00F2DB09 /* ComCentogramReadiumEPubWithURLProxy.h */,
+				2E855CDF1B0A431D00F2DB09 /* ComCentogramReadiumEPubWithURLProxy.m */,
+			);
+			name = "Appcelerator Classes";
+			sourceTree = "<group>";
+		};
 		2EF0BC7F1B027C5700362F5E /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				2E855CD51B0A2EFD00F2DB09 /* Appcelerator Classes */,
 				2E3C1DCE1B0522F800F4DCF4 /* Main */,
 				2E3C1CC21B051FBF00F4DCF4 /* RDServices */,
 			);
 			path = Classes;
-			sourceTree = "<group>";
-		};
-		2EF312DA1B063D97000BB84B /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				2EF312DB1B063D97000BB84B /* annotations.css */,
-				2EF312DC1B063D97000BB84B /* childrens-literature-20130206.epub */,
-				2EF312DD1B063D97000BB84B /* Default-568h@2x.png */,
-				2EF312DE1B063D97000BB84B /* Default-Landscape.png */,
-				2EF312DF1B063D97000BB84B /* Default-Landscape@2x.png */,
-				2EF312E01B063D97000BB84B /* Default-Portrait.png */,
-				2EF312E11B063D97000BB84B /* Default-Portrait@2x.png */,
-				2EF312E21B063D97000BB84B /* Default.png */,
-				2EF312E31B063D97000BB84B /* Default@2x.png */,
-				2EF312E41B063D97000BB84B /* Localizable.strings */,
-				2EF312E61B063D98000BB84B /* epub30-test-0120-20131022.epub */,
-				2EF312E71B063D98000BB84B /* epub30-test-0220-20131022.epub */,
-				2EF312E81B063D98000BB84B /* epubReadingSystem.epub */,
-				2EF312E91B063D98000BB84B /* epubReadingSystem.js */,
-				2EF312EA1B063D98000BB84B /* epubReadingSystem.sh */,
-				2EF312EB1B063D98000BB84B /* epubReadingSystem_.js */,
-				2EF312EC1B063D98000BB84B /* host_app_feedback.js */,
-				2EF312ED1B063D98000BB84B /* Icon-29.png */,
-				2EF312EE1B063D98000BB84B /* Icon-29@2x.png */,
-				2EF312EF1B063D98000BB84B /* Icon-40.png */,
-				2EF312F01B063D98000BB84B /* Icon-40@2x.png */,
-				2EF312F11B063D98000BB84B /* Icon-50.png */,
-				2EF312F21B063D98000BB84B /* Icon-50@2x.png */,
-				2EF312F31B063D98000BB84B /* Icon-57.png */,
-				2EF312F41B063D98000BB84B /* Icon-57@2x.png */,
-				2EF312F51B063D98000BB84B /* Icon-60@2x.png */,
-				2EF312F61B063D98000BB84B /* Icon-72.png */,
-				2EF312F71B063D98000BB84B /* Icon-72@2x.png */,
-				2EF312F81B063D98000BB84B /* Icon-76.png */,
-				2EF312F91B063D98000BB84B /* Icon-76@2x.png */,
-				2EF312FA1B063D98000BB84B /* mathjax */,
-				2EF312FC1B063D98000BB84B /* moby-dick-20120118.epub */,
-				2EF312FD1B063D98000BB84B /* page-blanche-20130322.epub */,
-				2EF312FE1B063D98000BB84B /* reader.css */,
-				2EF312FF1B063D98000BB84B /* reader.html */,
-				2EF313001B063D98000BB84B /* readium-shared-js */,
-				2EF3133C1B063D98000BB84B /* wasteland-20120118.epub */,
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
-		2EF312FA1B063D98000BB84B /* mathjax */ = {
-			isa = PBXGroup;
-			children = (
-				2EF312FB1B063D98000BB84B /* MathJax.js */,
-			);
-			path = mathjax;
-			sourceTree = "<group>";
-		};
-		2EF313001B063D98000BB84B /* readium-shared-js */ = {
-			isa = PBXGroup;
-			children = (
-				2EF313011B063D98000BB84B /* .gitignore */,
-				2EF313021B063D98000BB84B /* host_app_reference_files */,
-				2EF313041B063D98000BB84B /* js */,
-				2EF313261B063D98000BB84B /* lib */,
-				2EF313381B063D98000BB84B /* license.txt */,
-				2EF313391B063D98000BB84B /* README.md */,
-				2EF3133A1B063D98000BB84B /* static */,
-			);
-			path = "readium-shared-js";
-			sourceTree = "<group>";
-		};
-		2EF313021B063D98000BB84B /* host_app_reference_files */ = {
-			isa = PBXGroup;
-			children = (
-				2EF313031B063D98000BB84B /* sample_styles.css */,
-			);
-			path = host_app_reference_files;
-			sourceTree = "<group>";
-		};
-		2EF313041B063D98000BB84B /* js */ = {
-			isa = PBXGroup;
-			children = (
-				2EF313051B063D98000BB84B /* helpers.js */,
-				2EF313061B063D98000BB84B /* models */,
-				2EF313171B063D98000BB84B /* readium_sdk.js */,
-				2EF313181B063D98000BB84B /* views */,
-			);
-			path = js;
-			sourceTree = "<group>";
-		};
-		2EF313061B063D98000BB84B /* models */ = {
-			isa = PBXGroup;
-			children = (
-				2EF313071B063D98000BB84B /* bookmark_data.js */,
-				2EF313081B063D98000BB84B /* current_pages_info.js */,
-				2EF313091B063D98000BB84B /* fixed_page_spread.js */,
-				2EF3130A1B063D98000BB84B /* media_overlay.js */,
-				2EF3130B1B063D98000BB84B /* package.js */,
-				2EF3130C1B063D98000BB84B /* package_data.js */,
-				2EF3130D1B063D98000BB84B /* page_open_request.js */,
-				2EF3130E1B063D98000BB84B /* smil_iterator.js */,
-				2EF3130F1B063D98000BB84B /* smil_model.js */,
-				2EF313101B063D98000BB84B /* spine.js */,
-				2EF313111B063D98000BB84B /* spine_item.js */,
-				2EF313121B063D98000BB84B /* style.js */,
-				2EF313131B063D98000BB84B /* style_collection.js */,
-				2EF313141B063D98000BB84B /* switches.js */,
-				2EF313151B063D98000BB84B /* trigger.js */,
-				2EF313161B063D98000BB84B /* viewer_settings.js */,
-			);
-			path = models;
-			sourceTree = "<group>";
-		};
-		2EF313181B063D98000BB84B /* views */ = {
-			isa = PBXGroup;
-			children = (
-				2EF313191B063D98000BB84B /* annotations_manager.js */,
-				2EF3131A1B063D98000BB84B /* audio_player.js */,
-				2EF3131B1B063D98000BB84B /* cfi_navigation_logic.js */,
-				2EF3131C1B063D98000BB84B /* fixed_view.js */,
-				2EF3131D1B063D98000BB84B /* iframe_loader.js */,
-				2EF3131E1B063D98000BB84B /* internal_links_support.js */,
-				2EF3131F1B063D98000BB84B /* media_overlay_data_injector.js */,
-				2EF313201B063D98000BB84B /* media_overlay_element_highlighter.js */,
-				2EF313211B063D98000BB84B /* media_overlay_player.js */,
-				2EF313221B063D98000BB84B /* one_page_view.js */,
-				2EF313231B063D98000BB84B /* reader_view.js */,
-				2EF313241B063D98000BB84B /* reflowable_view.js */,
-				2EF313251B063D98000BB84B /* scroll_view.js */,
-			);
-			path = views;
-			sourceTree = "<group>";
-		};
-		2EF313261B063D98000BB84B /* lib */ = {
-			isa = PBXGroup;
-			children = (
-				2EF313271B063D98000BB84B /* annotations_module.js */,
-				2EF313281B063D98000BB84B /* backbone.min.js */,
-				2EF313291B063D98000BB84B /* console_shim.js */,
-				2EF3132A1B063D98000BB84B /* epub_cfi.js */,
-				2EF3132B1B063D98000BB84B /* jquery.js */,
-				2EF3132C1B063D98000BB84B /* jquery.sizes.js */,
-				2EF3132D1B063D98000BB84B /* rangy */,
-				2EF313361B063D98000BB84B /* underscore.min.js */,
-				2EF313371B063D98000BB84B /* URI.js */,
-			);
-			path = lib;
-			sourceTree = "<group>";
-		};
-		2EF3132D1B063D98000BB84B /* rangy */ = {
-			isa = PBXGroup;
-			children = (
-				2EF3132E1B063D98000BB84B /* rangy-core.js */,
-				2EF3132F1B063D98000BB84B /* rangy-cssclassapplier.js */,
-				2EF313301B063D98000BB84B /* rangy-highlighter.js */,
-				2EF313311B063D98000BB84B /* rangy-position.js */,
-				2EF313321B063D98000BB84B /* rangy-selectionsaverestore.js */,
-				2EF313331B063D98000BB84B /* rangy-serializer.js */,
-				2EF313341B063D98000BB84B /* rangy-textrange.js */,
-				2EF313351B063D98000BB84B /* rangy.js */,
-			);
-			path = rangy;
-			sourceTree = "<group>";
-		};
-		2EF3133A1B063D98000BB84B /* static */ = {
-			isa = PBXGroup;
-			children = (
-				2EF3133B1B063D98000BB84B /* sdk.css */,
-			);
-			path = static;
 			sourceTree = "<group>";
 		};
 		32C88DFF0371C24200C91783 /* Other Sources */ = {
@@ -930,6 +601,7 @@
 				2E3C1DD51B05236100F4DCF4 /* ComCentogramReadiumViewController.m in Headers */,
 				2EF0BC861B027C5700362F5E /* ComCentogramReadiumModule.h in Headers */,
 				2EF0BC8A1B027C5700362F5E /* ComCentogramReadiumViewController.h in Headers */,
+				2E855CE01B0A431D00F2DB09 /* ComCentogramReadiumEPubWithURLProxy.h in Headers */,
 				2EF0BD5A1B03957C00362F5E /* ReaderViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -945,7 +617,6 @@
 				D2AAC07B0554694100DB518D /* Sources */,
 				D2AAC07C0554694100DB518D /* Frameworks */,
 				2EF0BF141B04DE9600362F5E /* ShellScript */,
-				2E3C1D681B05210200F4DCF4 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -1017,103 +688,6 @@
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
-
-/* Begin PBXResourcesBuildPhase section */
-		2E3C1D681B05210200F4DCF4 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2EF313931B063D98000BB84B /* sdk.css in Resources */,
-				2EF3137A1B063D98000BB84B /* media_overlay_data_injector.js in Resources */,
-				2EF313881B063D98000BB84B /* rangy-cssclassapplier.js in Resources */,
-				2EF313621B063D98000BB84B /* helpers.js in Resources */,
-				2EF313941B063D98000BB84B /* wasteland-20120118.epub in Resources */,
-				2EF313801B063D98000BB84B /* scroll_view.js in Resources */,
-				2EF313431B063D98000BB84B /* Default-Portrait@2x.png in Resources */,
-				2EF3136C1B063D98000BB84B /* spine.js in Resources */,
-				2EF3137E1B063D98000BB84B /* reader_view.js in Resources */,
-				2EF313831B063D98000BB84B /* console_shim.js in Resources */,
-				2EF313521B063D98000BB84B /* Icon-50.png in Resources */,
-				2EF313651B063D98000BB84B /* fixed_page_spread.js in Resources */,
-				2EF313661B063D98000BB84B /* media_overlay.js in Resources */,
-				2EF313911B063D98000BB84B /* license.txt in Resources */,
-				2EF3137F1B063D98000BB84B /* reflowable_view.js in Resources */,
-				2EF313481B063D98000BB84B /* epub30-test-0220-20131022.epub in Resources */,
-				2EF3134A1B063D98000BB84B /* epubReadingSystem.js in Resources */,
-				2EF313691B063D98000BB84B /* page_open_request.js in Resources */,
-				2EF3138B1B063D98000BB84B /* rangy-selectionsaverestore.js in Resources */,
-				2EF313871B063D98000BB84B /* rangy-core.js in Resources */,
-				2EF313421B063D98000BB84B /* Default-Portrait.png in Resources */,
-				2EF3136F1B063D98000BB84B /* style_collection.js in Resources */,
-				2EF313891B063D98000BB84B /* rangy-highlighter.js in Resources */,
-				2EF313531B063D98000BB84B /* Icon-50@2x.png in Resources */,
-				2EF313901B063D98000BB84B /* URI.js in Resources */,
-				2EF3135F1B063D98000BB84B /* reader.html in Resources */,
-				2EF3135E1B063D98000BB84B /* reader.css in Resources */,
-				2EF313501B063D98000BB84B /* Icon-40.png in Resources */,
-				2EF3133D1B063D98000BB84B /* annotations.css in Resources */,
-				2EF313611B063D98000BB84B /* sample_styles.css in Resources */,
-				2EF313541B063D98000BB84B /* Icon-57.png in Resources */,
-				2EF313681B063D98000BB84B /* package_data.js in Resources */,
-				2EF313451B063D98000BB84B /* Default@2x.png in Resources */,
-				2EF3134D1B063D98000BB84B /* host_app_feedback.js in Resources */,
-				2EF313571B063D98000BB84B /* Icon-72.png in Resources */,
-				2EF3135C1B063D98000BB84B /* moby-dick-20120118.epub in Resources */,
-				2EF313631B063D98000BB84B /* bookmark_data.js in Resources */,
-				2EF313441B063D98000BB84B /* Default.png in Resources */,
-				2EF3137D1B063D98000BB84B /* one_page_view.js in Resources */,
-				2EF313721B063D98000BB84B /* viewer_settings.js in Resources */,
-				2EF313601B063D98000BB84B /* .gitignore in Resources */,
-				2EF313591B063D98000BB84B /* Icon-76.png in Resources */,
-				2EF3136A1B063D98000BB84B /* smil_iterator.js in Resources */,
-				2EF313841B063D98000BB84B /* epub_cfi.js in Resources */,
-				2EF3138A1B063D98000BB84B /* rangy-position.js in Resources */,
-				2EF313641B063D98000BB84B /* current_pages_info.js in Resources */,
-				2EF313581B063D98000BB84B /* Icon-72@2x.png in Resources */,
-				2EF313951B065067000BB84B /* Localizable.strings in Resources */,
-				2EF313821B063D98000BB84B /* backbone.min.js in Resources */,
-				2EF3134B1B063D98000BB84B /* epubReadingSystem.sh in Resources */,
-				2EF3138E1B063D98000BB84B /* rangy.js in Resources */,
-				2EF313791B063D98000BB84B /* internal_links_support.js in Resources */,
-				2EF313741B063D98000BB84B /* annotations_manager.js in Resources */,
-				2EF313761B063D98000BB84B /* cfi_navigation_logic.js in Resources */,
-				2EF313401B063D98000BB84B /* Default-Landscape.png in Resources */,
-				2EF313561B063D98000BB84B /* Icon-60@2x.png in Resources */,
-				2EF3134E1B063D98000BB84B /* Icon-29.png in Resources */,
-				2EF3135D1B063D98000BB84B /* page-blanche-20130322.epub in Resources */,
-				2EF3138D1B063D98000BB84B /* rangy-textrange.js in Resources */,
-				2EF3137B1B063D98000BB84B /* media_overlay_element_highlighter.js in Resources */,
-				2EF313701B063D98000BB84B /* switches.js in Resources */,
-				2EF3134C1B063D98000BB84B /* epubReadingSystem_.js in Resources */,
-				2EF313781B063D98000BB84B /* iframe_loader.js in Resources */,
-				2EF3136E1B063D98000BB84B /* style.js in Resources */,
-				2EF313491B063D98000BB84B /* epubReadingSystem.epub in Resources */,
-				2EF3137C1B063D98000BB84B /* media_overlay_player.js in Resources */,
-				2EF3134F1B063D98000BB84B /* Icon-29@2x.png in Resources */,
-				2EF313851B063D98000BB84B /* jquery.js in Resources */,
-				2EF3133E1B063D98000BB84B /* childrens-literature-20130206.epub in Resources */,
-				2EF313551B063D98000BB84B /* Icon-57@2x.png in Resources */,
-				2EF313411B063D98000BB84B /* Default-Landscape@2x.png in Resources */,
-				2EF313511B063D98000BB84B /* Icon-40@2x.png in Resources */,
-				2EF313751B063D98000BB84B /* audio_player.js in Resources */,
-				2EF313861B063D98000BB84B /* jquery.sizes.js in Resources */,
-				2EF3133F1B063D98000BB84B /* Default-568h@2x.png in Resources */,
-				2EF3136D1B063D98000BB84B /* spine_item.js in Resources */,
-				2EF3138C1B063D98000BB84B /* rangy-serializer.js in Resources */,
-				2EF3135A1B063D98000BB84B /* Icon-76@2x.png in Resources */,
-				2EF313671B063D98000BB84B /* package.js in Resources */,
-				2EF3135B1B063D98000BB84B /* MathJax.js in Resources */,
-				2EF3138F1B063D98000BB84B /* underscore.min.js in Resources */,
-				2EF313811B063D98000BB84B /* annotations_module.js in Resources */,
-				2EF313711B063D98000BB84B /* trigger.js in Resources */,
-				2EF3136B1B063D98000BB84B /* smil_model.js in Resources */,
-				2EF313771B063D98000BB84B /* fixed_view.js in Resources */,
-				2EF313731B063D98000BB84B /* readium_sdk.js in Resources */,
-				2EF313471B063D98000BB84B /* epub30-test-0120-20131022.epub in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
 		24416B8011C4CA220047AFDD /* ShellScript */ = {
@@ -1200,6 +774,7 @@
 				2EF0BDE31B03C93700362F5E /* BookmarkListController.m in Sources */,
 				2EF0BDEB1B03C96000362F5E /* NavigationElementController.m in Sources */,
 				2E3C1D341B051FBF00F4DCF4 /* DDNumber.m in Sources */,
+				2E855CE11B0A431D00F2DB09 /* ComCentogramReadiumEPubWithURLProxy.m in Sources */,
 				2E3C1D281B051FBF00F4DCF4 /* RDPackageResourceDataResponse.m in Sources */,
 				2E3C1D3D1B051FBF00F4DCF4 /* HTTPMessage.m in Sources */,
 				2EF0BD521B02809100362F5E /* BaseViewController.m in Sources */,
@@ -1222,17 +797,6 @@
 			targetProxy = 2E407C181B0505180098AD0A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		2EF312E41B063D97000BB84B /* Localizable.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2EF312E51B063D97000BB84B /* en */,
-			);
-			name = Localizable.strings;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		1DEB921F08733DC00010E9CD /* Debug */ = {

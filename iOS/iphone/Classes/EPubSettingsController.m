@@ -169,7 +169,7 @@
 
 		[self updateCells];
 
-		self.contentSizeForViewInPopover = CGSizeMake(320, 44 * m_cells.count);
+		self.preferredContentSize = CGSizeMake(320, 44 * m_cells.count);
 
 		[[NSNotificationCenter defaultCenter]
 			addObserver:self

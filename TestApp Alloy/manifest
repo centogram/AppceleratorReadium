@@ -1,8 +1,8 @@
-#appname: Readium Test App
-#publisher: rahulsingh
-#url: http://
-#image: appicon.png
-#appid: com.centogram.readiumtestapp
-#desc: undefined
-#type: ipad
-#guid: 9c5fe3fc-8a68-43ed-92f2-f546cff1d857
+#appname:Readium Test App
+#publisher:rahulsingh
+#url:http://
+#image:appicon.png
+#appid:com.centogram.readiumtestapp
+#desc:undefined
+#type:ipad
+#guid:9c5fe3fc-8a68-43ed-92f2-f546cff1d857
