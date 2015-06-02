@@ -128,4 +128,8 @@ RDContainerDelegate>
 
 }
 
+/*NSString *path = [NSString stringWithFormat:@"modules/%@/foo.png",[self moduleId]];
+ NSURL *url = [TiUtils toURL:path proxy:self];
+ UIImage *image = [TiUtils image:url proxy:self];*/
+
 @end

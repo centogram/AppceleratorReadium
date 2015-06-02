@@ -14,7 +14,7 @@ var epubWithUrl = readium.createEPubWithURL({
 });
 
 aButton.addEventListener('click', function() {
-    // Ti.API.info(epubWithUrl.getMetaData());
+    Ti.API.info(epubWithUrl.getMetaData());
     epubWithUrl.open();
 });
 

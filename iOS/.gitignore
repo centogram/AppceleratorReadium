@@ -20,7 +20,6 @@ Android/.apt_generated
 
 iOS/build
 iOS/iphone/build
-iOS/iphone/readium-sdk
 
 TestApp/.DS_Store
 TestApp/build.log
